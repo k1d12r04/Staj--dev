@@ -6,10 +6,6 @@ FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 */
 
-/* 
-MAIN COLOR: #087f5b
-GREY COLOR: #343a40
-*/
 
 * {
   margin: 0;
@@ -17,9 +13,6 @@ GREY COLOR: #343a40
   box-sizing: border-box;
 }
 
-/* ------------------------ */
-/* GENERAL STYLES */
-/* ------------------------ */
 body {
   font-family: "Intern", sans-serif;
   color: #343a40;
@@ -40,7 +33,6 @@ h2 {
   margin-bottom: 48px;
   font-size: 36px;
   letter-spacing: -0.5px;
-  /* 24 / 30 / 36 */
 }
 
 .grid-3-cols {
@@ -80,11 +72,7 @@ img {
   border-radius: 12px;
 }
 
-/* ------------------------ */
-/* COMPONENT STYLES */
-/* ------------------------ */
 
-/* HEADER */
 header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -101,9 +89,6 @@ h1 {
   font-size: 44px;
   line-height: 1.1;
   letter-spacing: -1px;
-  /* 44 / 52 / 62 */
-
-  /* text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); */
 }
 
 .header-text {
@@ -116,7 +101,7 @@ img {
   width: 100%;
 }
 
-/* FEATURES */
+
 .features-icon {
   width: 32px;
   height: 32px;
@@ -133,9 +118,14 @@ img {
   line-height: 1.7;
 }
 
-/* TESTIMONIAL */
+.intro-text{
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
 .testimonial-section {
-  background-color: green;
+  background-color: #364fc7;
   color: #fff;
   padding: 24px;
   border-radius: 12px;
@@ -151,7 +141,6 @@ img {
 
 .testimonial-box h2 {
   margin-bottom: 24px;
-  /* 20 / 24 / 30 */
   font-size: 24px;
 }
 
@@ -167,7 +156,7 @@ img {
   color: #edf2ff;
 }
 
-/* CHAIRS */
+
 .trending-groups {
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
   border-radius: 12px;
