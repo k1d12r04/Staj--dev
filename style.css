@@ -220,7 +220,13 @@ footer {
   font-size: 14px;
   color: #495057;
 }
+
+.social-icons{
+  text-decoration: none;
+}
+
 .social-media-icon{
   width: 32px;
   height: 32px;
 }
+
